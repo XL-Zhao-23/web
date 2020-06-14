@@ -3,7 +3,7 @@
 * @Author: ÕÔÐ¡Áú
 * @Date:   2020-06-11 11:50:27
 * @Last Modified by:   赵小龙
-* @Last Modified time: 2020-06-14 18:10:27
+* @Last Modified time: 2020-06-14 19:22:44
 */
 /* 背景颜色 *//* rgb(1,158,213) */
 body{
@@ -77,6 +77,35 @@ body{
 	background: url(images/fa-search.png) no-repeat center center rgb(138,171,202);
 	border:0px;
 	cursor: pointer;
+}
+.searchZone ul{
+	display:none;
+}
+.searchZone ul{
+	width:200px;
+	position:absolute;
+	top:50px;
+	right:333px;
+	background-color: rgb(1,158,213);
+	border:4px solid rgb(138,171,202);
+	border-top:0px;
+	line-height: 25px;
+	border-radius: 0% 0% 4% 4%;
+}
+.searchZone ul li{
+    margin:5px 10px;
+}
+#history{
+	color:#000;
+}
+.history>h4+a{
+	font-weight: lighter;
+}
+.searchZone ul a{
+	color:#ccc;
+}
+.searchZone .input:focus+ul{
+	display:inline;
 }
 /* login */
 .login{
