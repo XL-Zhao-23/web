@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>同程旅游</title>
+	<style type="text/css">
+    *{
+       padding:0;
+       margin:0;
+     }
+    a{ 
+      text-decoration: none;
+    }
+     /* header begin */
+     #header{
+      width:1510px;
+      height:80px;
+      /* border:1px solid red; */
+    }
+    .header{
+      width:1200px;
+      height:80px;
+      margin:0 auto;
+      /* border:1px solid red; */
+    }
+    .header_left{
+      width:400px;
+      height:80px;
+      float:left;
+      /* border:1px solid red; */
+    }
+    .header_right{
+      width:800px;
+      height:80px;
+      float:right;
+      /* border:1px solid red; */
+    }
+    .header_left>img{
+      padding:15px 0px 15px 0px;
+    }
+    a{
+      float:left;
+      width:160px;
+      font-size:20px;
+      text-align:center;
+      padding-top:30px;
+    }
+    a:hover{
+      border-bottom:3px orange solid;
+      padding-bottom:15px;
+      color:orange;
+    }
+    /* header end */
+    /* content begin */
+    #content{
+      width:1510px;
+      height:600px;
+      background-color: #ddd;
+      /* border:1px solid blue; */
+    }
+    .content{
+      width:1200px;
+      height:600px;
+      position:absolute;
+      left:155px;
+      right:155px;
+      /* border:1px solid purple; */
+    }
+    .content_left{
+      width:398px;
+      height:555px;
+      /* border:1px solid purple; */
+      float:left;
+      padding:20px 1px 23px 0px;
+      
+    }
+    
+    .content_right{
+      width:800px;
+      height:555px;
+      /* border:1px solid purple; */
+      float:right;
+      padding:20px 0pc 23px 0px;
+    }
+    .content_right>div{
+      width:398px;
+      height:275px;
+      float:left;
+      /* border:1px solid yellow; */
+    }
+    .content_right>div:first-child{
+      padding:0px 2px 2px 0px;
+         
+      /* border:1px solid yellow; */
+    }
+    .content_right>div:nth-child(2){
+      padding:0px 0px 2px 2px;
+         
+      /* border:1px solid yellow; */
+    }
+    .content_right>div:nth-child(3){
+      padding:2px 2px 0px 0px;
+        
+      /* border:1px solid yellow; */
+    }
+    .content_right>div:nth-child(4){
+      padding:2px 0px 0px 2px;
+    
+      /* border:1px solid yellow; */
+    }
+    /* 黑色背景的位置 开始 */
+    .content_background_top{
+      width:398px;
+      height:73px;
+      position:absolute;
+      top:222px;
+      background-color: black;
+      opacity: 0.4;
+      z-index: 1;
+    }
+    .content_background_bottom{
+      width:398px;
+      height:73px;
+      position:absolute;
+      bottom:25px;
+      background-color: black;
+      opacity: 0.4;
+      z-index: 1;
+    }
+    .content_right_background_top{
+      height:47px;
+      position:absolute;
+      top:248px;
+    }
+    .content_right_background_bottom{
+      height:47px;
+      position:absolute;
+      bottom:25px;
+    }
+    /* 黑色背景的位置 结束 */
+    /* 字体位置 开始 */
+    .word_top{
+      z-index: 2;
+      position:absolute;
+      top:243.5px;
+    }
+    .word_bottom{
+      z-index: 2;
+      position:absolute;
+      bottom:46.5px;    
+    }
+    .content_right_word_top{
+      position:absolute;
+      top:255.5px;
+    }
+    .content_right_word_bottom{
+      position:absolute;
+      bottom:30.5px;
+    }
+    /* 字体位置 结束 */
+    /* 字体大小 开始 */
+    .word_small{
+      padding-left:38px;
+      font-size:20px;
+      font-weight:lighter;
+      color:white;
+    }
+    .word_big{
+      font-size:30px;
+      color:white;
+    }
+    .word_middle{
+      font-size:22px;
+      color:white;
+    }
+    .word_right>.word_small{
+      font-size:18px;
+    }
+    .word_right>.word_big{
+      font-size:26px;
+    }
+    .word_right>.word_middle{
+      font-size:20px;
+    }
+    /* 字体大小 结束 */
+    /* content end */
+    /* footer begin */
+    #footer{
+      width:1510px;
+      height:120px;
+      background-color: #000;
+    }
+    p{
+      font-size:18px;
+      color:#fff;
+      text-align: center;
+      line-height: 120px;
+    }
+    /* footer end 
+  </style>
+</head>
+<body>
+    <!-- header begin-->
+    <div id="header">
+        <div class="header">
+            <div class="header_left">
+                <img src="img/logotc.png" height="50" width="208">
+            </div>
+            <div class="header_right">
+                <a>首页</a>
+                <a>热门路线</a>
+                <a>签证推荐</a>
+                <a>酒店预定</a>
+                <a>使命愿景</a>
+            </div>
+        </div>
+    </div>
+	<!-- header end -->
+    <!-- content begin -->
+    <div id="content">
+        <div class="content">
+            <div class="content_left">
+                <img src="img/visa1.jpg" height="555" width="398">
+                <div class="content_background_bottom"></div>
+                  <div class="word_bottom">
+                      <span class="word_small">日本旅游签证 ￥</span>
+                      <span class="word_big">420</span>
+                      <span class="word_middle">/人</span>                      
+                  </div>
+            </div>
+            <div class="content_right">
+              <div class="word_right">
+                  <img src="img/visa2.jpg" height="275" width="397">
+                  <div class="content_background_top content_right_background_top"></div>
+                  <div class="word_right word_top content_right_word_top">
+                      <span class="word_small ">新加坡旅游签证</span>
+                      <span class="word_big"> ￥370</span>
+                      <span class="word_middle">/人</span>                      
+                  </div>
+              </div>
+              <div class="word_right">
+                  <img src="img/visa3.jpg" height="275" width="398">
+                  <div class="content_background_top content_right_background_top"></div>
+                  <div class="word_right word_top content_right_word_top">
+                      <span class="word_small ">马来西亚旅游签证</span>
+                      <span class="word_big"> ￥450</span>
+                      <span class="word_middle">/人</span>                      
+                  </div>
+              </div>
+              <div class="word_right">
+                  <img src="img/visa4.jpg" height="275" width="396">
+                  <div class="content_background_bottom content_right_background_bottom"></div>
+                  <div class="word_right word_bottom content_right_word_bottom" >
+                      <span class="word_small">申根旅游签证</span>
+                      <span class="word_big"> ￥999</span>
+                      <span class="word_middle">/人</span>                      
+                  </div>
+              </div>
+              <div >
+                  <img src="img/visa5.jpg" height="275" width="398">
+                  <div class="content_background_bottom content_right_background_bottom"></div>
+                  <div class="word_right word_bottom content_right_word_bottom">
+                      <span class="word_small">美国旅游签证</span>
+                      <span class="word_big"> ￥1380</span>
+                      <span class="word_middle">/人</span>                      
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- content end -->
+    <!-- footer begin -->
+    <div id="footer">
+        <div class="footer">
+            <P>苏ICP备000号、2014-2017版权所有</P>
+        </div>
+    </div>
+    <!-- footer end -->
+</body>
+</html>

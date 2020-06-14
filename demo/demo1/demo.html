@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>四大名著</title>
+  <style type="text/css">
+      p{
+        font-size: 90px;
+      }
+      /* 通配符选择器 第二种记得加通配符前用空格隔开元素名*/
+
+      *{
+        font-size:16px;
+      }
+      ol *{
+        color: blue;
+      }
+      /* 交集选择器  */
+      li.green {
+        color:green;
+      }
+      /* 并集选择器  */
+       li,p {
+        color:red;
+      }
+      /* 后代选择器 后代元素指的是子子孙孙只要是空格后的元素就生效 */
+      ol li{
+        font-size:30px;
+      }
+      /* 子元素选择器 仅有子元素一代生效*/
+      ol>li{
+        color:orange;
+      }
+      /* 兄弟选择器 同代相邻有兄弟之分 */
+      li + p{
+        font-size: 1px;
+      }
+
+      /* 属性选择器  改变使用某个属性的元素*/
+
+     /*  [class]{
+        font-size:90px;
+
+      } */
+
+      
+
+
+  </style>
+
+
+</head>
+<body>
+  <h1 class="green">四大名著</h1>
+  <h2>&nbsp;&nbsp;&nbsp;&nbsp;——&nbsp;中国四大经典小说的的概括称呼</h2>
+  
+  <p class="red">中国古典长篇小说四大名著，简称四大名著，是指《水浒传》《三国演义》《西游记》《红楼梦》（按照成书先
+  后顺序）这四部巨著。</p>
+  <p>四大名著是中国文学史中的经典作品，是世界宝贵的文化遗产。此四部巨著在中国文学史上的地位是难分高低的
+  ，都有着极高的文学水平和艺术成就，细致的刻画和所蕴含的深刻思想都为历代读者所称道，其中的故事、场景、人
+  物已经深深地影响了中国人的思想观念、价值取向。可谓中国文学史上的四座伟大丰碑。</p>
+  <a href="https://baike.baidu.com/item/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/5782?bkfr=detailtbl"
+  target="_blank">
+      <img src="images/1.jpg" alt="《三国演义》">
+  </a>
+  <a href="https://baike.baidu.com/item/%E8%A5%BF%E6%B8%B8%E8%AE%B0/5723?bkfr=detailtbl" 
+  target="_blank">
+      <img src="images/2.jpg" alt="《西游记》">
+  </a>
+  <a href="https://baike.baidu.com/item/%E6%B0%B4%E6%B5%92%E4%BC%A0/348?bkfr=detailtbl" 
+  target="_blank">
+      <img src="images/3.jpg" alt="《水浒传》">
+  </a>
+  <a href="https://baike.baidu.com/item/%E7%BA%A2%E6%A5%BC%E6%A2%A6/15311?bkfr=detailtbl" 
+  target="_blank">
+      <img src="images/4.jpg" alt="《红楼梦》">
+  </a>
+  <hr/>
+  <ul>
+    <li>
+      <h3>《三国演义》</h3>
+      <p>—<strong>作者：</strong>
+       罗贯中（约1330年—约1400年），名本、才本，字贯中，号湖海散人。元末明初作家，戏曲家。</p>
+      <p>—<strong>介绍：</strong>
+      《三国演义》是综合民间传说和戏曲、话本，结合陈寿的《三国志》、范晔《后汉书》、元代《三国志平话》、
+       和裴松之注的史料，以及作者个人对社会人生的体悟写成。</p>
+    </li>
+
+    <li>
+      <h3>西游记</h3>
+      <p>—<strong>作者：</strong>
+      吴承恩（1501年-1582年），字汝忠，号射阳山人。中国明代杰出的小说家。</p>
+      <p>—<strong>介绍：</strong> 
+      西游记以民间传说的唐僧取经的故事和有关话本及杂剧（元末明初杨讷作）基础上创作而成。</p>
+    </li>
+    
+    
+    <li>
+      <h3>水浒传</h3>
+      <p>—<strong>作者：</strong>
+      施耐庵（1296年—1370年），《水浒传》的作者究竟是谁具有争议，目前最广泛认可的说法认为作者是施耐庵。</p>
+      <p>—<strong>介绍：</strong>
+      《水浒传》的故事源起于北宋宣和年间，出现了话本《大宋宣和遗事》描述了宋江、吴加亮（吴用）、晁盖等36
+       人起义造反的故事，成为《水浒传》的蓝本。</p>
+    </li>
+
+
+    <li>
+      <h3>红楼梦</h3>
+      <p class="red">—<strong>作者：</strong>
+        <ol >
+          <li class="green">曹雪芹（约1715-约1763），名沾，字梦阮，号雪芹，又号芹溪、芹圃。清代小说家、诗人、画家。</li>
+            <li>一</li>
+            <p>yi</p>
+            <h1>一</h1>
+        
+          <li>高鹗（1758年—约1815年），字云士，号秋甫，别号兰墅、行一、红楼外史。</li>
+        </ol></p>
+      <p>—<strong>介绍：</strong>
+      《红楼梦》是一部章回体长篇小说。早期仅有前八十回抄本流传，八十回后部分未完成且原稿佚失。</p>
+    </li>
+
+ 
+  </ul>  
+  
+</body>
+</html>

@@ -1,0 +1,44 @@
+/*
+* @Author: 赵小龙
+* @Date:   2020-05-11 16:32:55
+* @Last Modified by:   赵小龙
+* @Last Modified time: 2020-06-12 16:58:54
+*/
+ .nav{
+	width:1000px;
+	height:50px;
+	margin:0 auto;
+}
+
+.nav li{
+	width:200px;
+	height:50px;
+	float:left;
+	text-align:center;
+	background:yellow;
+}
+/*
+.nav ul li a{
+	line-height: 50px;
+	color:#ccc;
+}
+
+
+.nav>ul>li ul{
+	display:none;
+}
+.nav>ul>li:hover ul{
+	display:block;
+	position:relative;
+}
+.nav ul li:hover{
+	background-color: #ccc;
+}
+.nav ul li:hover a{
+    color:black;
+}
+.nav>ul>li ul{
+	padding-top: 10px;
+	position: absolute;
+}
+ */

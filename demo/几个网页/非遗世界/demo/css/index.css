@@ -1,0 +1,368 @@
+body {
+    line-height: 1;
+    background: rgb(250, 250, 250);
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.container {
+    width: 1202px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 头部样式 */
+.header-top {
+    height: 32px;
+    border-bottom: 1px solid rgba(218, 218, 218, 1);
+}
+
+.header__info {
+    line-height: 32px;
+}
+
+.header__info li {
+    float: left;
+    margin-left: 27px;
+    background: no-repeat left center;
+}
+
+li.iphone {
+    padding-left: 15px;
+    background-image: url(../images/iphone.png);
+}
+
+li.weixin {
+    padding-left: 23px;
+    background-image: url(../images/weixin.png);
+}
+
+.header-bottom {
+    height: 100px;
+}
+
+.logo {
+    width: 236px;
+    height: 70px;
+    margin-top: 14px;
+}
+
+.nav {
+    margin-top: 39px;
+}
+
+.nav li {
+    float: left;
+    padding: 0 44px;
+    border-right: 2px solid rgba(0, 0, 0, 1);
+}
+
+li.first {
+    padding-left: 20px;
+}
+
+li.last {
+    border: none;
+    padding-right: 20px;
+}
+
+.nav a {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.form {
+    margin-top: 34px;
+}
+
+.form * {
+    float: left;
+    /* vertical-align: middle; */
+}
+
+.form .search {
+    width: 147px;
+    height: 11px;
+    border: 1px solid rgba(208, 61, 61, 1);
+    padding: 9px;
+}
+
+.form .submit {
+    width: 31px;
+    height: 31px;
+    border: 1px solid rgba(208, 61, 61, 1);
+    background: rgba(208, 61, 61, 1) url(../images/search.png) no-repeat center center;
+    cursor: pointer;
+}
+
+:focus {
+    outline: none;
+}
+
+/* banner样式 */
+.banner {
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-item {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/banner1.png) no-repeat center center;
+}
+
+.banner-item .text {
+    position: absolute;
+    top: 47px;
+    left: 53%;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 222px;
+    left: 6%;
+    width: 106px;
+    height: 106px;
+    opacity: 0.2;
+}
+
+.next {
+    left: auto;
+    right: 5%;
+}
+
+/* 标题样式 */
+.title {
+    margin-top: 100px;
+    font-size: 36px;
+    color: rgba(32, 32, 32, 1);
+    /* background: url(../images/bg-title.png) no-repeat center center; */
+}
+
+.title .small {
+    margin-top: 15px;
+    margin-bottom: 34px;
+    font-size: 20px;
+}
+
+/* 广告样式 */
+.advert {
+    width: 100%;
+    height: 551px;
+    background: url(../images/banner2.png) no-repeat center center;
+}
+
+.money {
+    background-image: url(../images/banner3.png);
+}
+
+/* 产品样式 */
+.product-small {
+    width: 705px;
+}
+
+.product-item {
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.product-small.fl .product-item {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.product-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    background: rgba(208, 61, 61, 1);
+    opacity: 0.8;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.product-info h3 {
+    font-size: 14px;
+    padding: 7px 0;
+}
+
+.product-info p {
+    font-size: 12px;
+}
+
+.product-big .product-item {
+    margin-left: 0;
+}
+
+.product-big .product-info {
+    height: 58px;
+    font-size: 16px;
+}
+
+.product-big h3 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.product-big p {
+    font-size: 14px;
+}
+
+/* 会员样式 */
+.member {
+    margin: 60px auto 40px;
+    width: 238px;
+    height: 64px;
+    line-height: 64px;
+    background: rgba(208, 61, 61, 1);
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* 服务样式 */
+.server {
+    text-align: center;
+}
+
+.server ul {
+    display: inline-block;
+}
+
+.server li {
+    float: left;
+}
+
+.server-info {
+    height: 135px;
+    background: rgba(58, 58, 58, 0.8);
+}
+
+.server-info li {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding: 18px 82px;
+}
+
+.server-info p {
+    padding-top: 15px;
+}
+
+.server-num {
+    height: 48px;
+    line-height: 48px;
+    background: rgba(96, 96, 96, 0.3);
+}
+
+.server-num li {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 26px;
+    color: rgba(208, 61, 61, 1);
+}
+
+/* 优惠样式 */
+.preferential {
+    margin-top: 60px;
+    border-bottom: 2px solid rgba(227, 226, 226, 1);
+    height: 150px;
+    text-align: center;
+}
+
+.preferential ul {
+    display: inline-block;
+}
+
+.preferential li {
+    float: left;
+    width: 349px;
+    text-align: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.preferential span {
+    float: left;
+    width: 68px;
+    line-height: 68px;
+    text-align: center;
+    font-size: 36px;
+    color: #d03d3d;
+    margin-left: 45px;
+    margin-right: 20px;
+    background: url(../images/circle.png) no-repeat center;
+}
+
+.preferential h4 {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(58, 58, 58, 1);
+}
+
+.preferential p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* footer样式 */
+.footer {
+    height: 307px;
+    padding-top: 18px;
+    background: rgba(58, 58, 58, 1);
+    text-align: center;
+}
+
+.footer h4 {
+    padding: 38px 0 23px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer ul {
+    display: inline-block;
+}
+
+.footer li {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding: 0 12px;
+    border-right: 2px solid rgba(255, 255, 255, 1);
+}
+
+.footer li.last {
+    border: none;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 65px;
+}

@@ -1,0 +1,29 @@
+/*
+* @Author: 赵小龙
+* @Date:   2020-05-11 16:32:55
+* @Last Modified by:   赵小龙
+* @Last Modified time: 2020-05-11 18:42:14
+*/
+body{
+	text-align:center;
+}
+body:before{
+	content: '';
+	display:block;
+	height:0px;
+	width:400px;
+    border-bottom:1px solid red;
+    position:absolute;
+    top:30px;
+    left:300px;
+}
+body:after{
+	content:'';
+    display:block;
+    height:0px;
+    width:400px;
+    border-bottom:1px solid red;
+    position:absolute;
+    top:30px;
+    right:300px;
+}
