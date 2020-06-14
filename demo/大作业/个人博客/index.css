@@ -3,7 +3,7 @@
 * @Author: ÕÔÐ¡Áú
 * @Date:   2020-06-11 11:50:27
 * @Last Modified by:   赵小龙
-* @Last Modified time: 2020-06-14 11:01:01
+* @Last Modified time: 2020-06-14 18:10:27
 */
 /* 背景颜色 *//* rgb(1,158,213) */
 body{
@@ -231,12 +231,14 @@ body{
 	height:20px;
     text-align: center;
 	line-height:20px;
-	background-color:rgba(0,0,0,0.3);
-	color:#fff;
+	background-color:rgba(0,0,0,0.7);
 	position:absolute;
 	top:0px;
 	left:0px;
 	z-index: 0;
+}
+.classItem a{
+	color:#ccc;
 }
 .containLeft *{
 	border-radius: 0px;
