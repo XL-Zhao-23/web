@@ -3,7 +3,7 @@
 * @Author: ÕÔÐ¡Áú
 * @Date:   2020-06-11 11:50:27
 * @Last Modified by:   赵小龙
-* @Last Modified time: 2020-06-14 19:22:44
+* @Last Modified time: 2020-06-14 19:49:37
 */
 /* 背景颜色 *//* rgb(1,158,213) */
 body{
@@ -17,7 +17,7 @@ body{
 	background-color:rgb(1,158,213);
     position:fixed;
     top:0px;
-    z-index: 1;
+    z-index: 6;
     border-bottom: 4px solid rgb(138,171,202);
 }
 
